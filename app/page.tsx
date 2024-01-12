@@ -7,6 +7,7 @@ import { CarState } from "@/types"
 import { fetchCars } from "@/utils"
 import Image from "next/image"
 import { useEffect, useState } from "react"
+import { PulseLoader } from "react-spinners"
 
 export default function Home() {
   const [allCars, setAllCars] = useState<CarState>([])
@@ -72,13 +73,7 @@ export default function Home() {
 
             {loading && (
               <div className="mt-16 w-full flex-center">
-                <Image
-                  src="./loader.svg"
-                  alt="loader"
-                  width={50}
-                  height={50}
-                  className="object-contain"
-                />
+                <PulseLoader color="#2a76ea" />
               </div>
             )}
 
