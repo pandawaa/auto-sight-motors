@@ -1,8 +1,7 @@
 <div align="center">
   <br />
     <a href="https://auto-sight-motors.vercel.app/" target="_blank">
-      <img src="https://github.com/pandawaa/auto-sight-motors/blob/main/public/home-page-auto-sight-motors.png
-">
+      <img src="https://github.com/pandawaa/auto-sight-motors/blob/main/public/home-page-auto-sight-motors.png">
     </a>
   <br />
 
